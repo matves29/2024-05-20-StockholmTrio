@@ -7,8 +7,8 @@ venue: "Stockholm Trio University Libraries"        # brief name of the institut
 address: "TBD, KTH"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "se"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
-latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
-longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
+latitude: "59.347243"        # decimal latitude of workshop venue (use https://www.latlong.net/)
+longitude: "18.074612"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "May 20-21, 2024"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9 am - 5 pm CET"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2024-05-20      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
@@ -61,6 +61,23 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% endif %}
 
 
+{% comment%}
+REGISTRATION
+{% endcomment %}
+<h2 id="registration">Registration</h2>
+
+<p>
+This seminar is open for students at KI, KTH and SU. In order to praticipate in the seminar please register in advance by clicking the button below. Participation in the workshop is limited to 27 participants.
+</p>
+
+<p class="text-center">
+  <a href="https://kth.se">
+    <button type="button" class="btn btn-info">Register for the workshop</button>
+  </a>
+</p>
+
+<hr/>
+
 <h2 id="general">General Information</h2>
 
 {% comment %}
@@ -70,18 +87,7 @@ Edit the general explanatory paragraph below if you want to change
 the pitch.
 {% endcomment %}
 
-<p>
-<strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
-href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, and
-<a href="{{site.lc_site}}">Library Carpentry</a> communities of Instructors, Trainers, Maintainers,
-helpers, and supporters who share a mission to teach foundational computational and data science
-skills to researchers.
-<p align="center">
-  <em>
-  <strong>Want to learn more and stay engaged with The Carpentries?</strong> Carpentries Clippings is The Carpentries' biweekly newsletter, where we share community news, community job postings, and more.
-Sign up to receive future editions and read our full archive: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>
-  </em>
-</p>
+
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
 {% elsif site.carpentry == "dc" %}
@@ -265,22 +271,7 @@ Edit the text to match who can attend the workshop. For instance:
 
 
 <hr/>
-{% comment%}
-REGISTRATION
-{% endcomment %}
-<h2 id="registration">Registration</h2>
 
-<p>
-This seminar is open for students at KI, KTH and SU. In order to praticipate in the seminar please register in advance by clicking the button below. Participation in the workshop is limited to 27 participants.
-</p>
-
-<p class="text-center">
-  <a href="https://kth.se">
-    <button type="button" class="btn btn-info">Register for the workshop</button>
-  </a>
-</p>
-
-<hr/>
 
 
 {% comment%}

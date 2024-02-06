@@ -19,9 +19,7 @@ email: ["researchdata@kth.se"]    # boxed, comma-separated list of contact email
 collaborative_notes:  https://pad.carpentries.org/2024-05-20-StockholmTrio # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
-<div class="alert alert-info">
-<h2> <a href ="https://www.kth.se">Register for the workshop</a></h2><p>Registration is limited to 27 participants</p>
-</div>
+
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
 
 {% comment %}

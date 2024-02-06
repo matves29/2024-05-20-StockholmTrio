@@ -61,8 +61,6 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% endif %}
 
 
-
-
 <h2 id="general">General Information</h2>
 
 {% comment %}
@@ -259,14 +257,31 @@ Edit the text to match who can attend the workshop. For instance:
 - This workshop is open to the public.
 - If you are interested in attending this workshop, contact me@example.com
   for more information
-
+{% endcomment %}
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to ....
+     This workshop is open to doctoral students and researchers from the Stockholm Trio universities, i. e. Karolinska institutet, KTH Royal Institute of Technology and Stockholm University.
 </p>
-{% endcomment %}
+
 
 <hr/>
+{% comment%}
+REGISTRATION
+{% endcomment %}
+<h2 id="registration">Registration</h2>
+
+<p>
+This seminar is open for students at KI, KTH and SU. In order to praticipate in the seminar please register in advance by clicking the button below. Participation in the workshop is limited to 27 participants.
+</p>
+
+<p class="text-center">
+  <a href="https://kth.se">
+    <button type="button" class="btn btn-info">Register for the workshop</button>
+  </a>
+</p>
+
+<hr/>
+
 
 {% comment%}
 CODE OF CONDUCT

@@ -71,7 +71,7 @@ This seminar is open for students at KI, KTH and SU. In order to praticipate in 
 </p>
 
 <p class="text-center">
-  <a href="https://kth.se">
+  <a href="https://www.kth.se/form/65c499d3785f1239a49a99c0?l=en">
     <button type="button" class="btn btn-info">Register for the workshop</button>
   </a>
 </p>

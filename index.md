@@ -13,7 +13,7 @@ humandate: "May 20-21, 2024"    # human-readable dates for the workshop (e.g., "
 humantime: "9 am - 5 pm CET"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2024-05-20      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2024-05-21        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Filip af Malmborg", "Glenn Haya", "Mattias Vesterlund", "Stefan Wiens", "Joakim Philipsson"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Filip af Malmborg", "Glenn Haya", "Mattias Vesterlund", "Stefan Wiens", "Joakim Philipson"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Narcisa Hannerz"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["researchdata@kth.se"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  https://pad.carpentries.org/2024-05-20-StockholmTrio # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
@@ -439,7 +439,7 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
-If you're working with a KI, KTH or SU laptop, and you don't have administrative privilegues, here's what you can do:
+If you're working with a KI, KTH or SU laptop, and you don't have administrative privileges, here's what you can do:
 
 <strong>KI Windows</strong>
 

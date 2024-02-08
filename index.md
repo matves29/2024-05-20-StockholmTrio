@@ -439,6 +439,21 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
+If you're working with a KI, KTH or SU laptop, and you don't have administrative privilegues, here's what you can do:
+
+<strong>KI Windows</strong>
+
+<strong>KI Mac</strong>
+
+<strong>KTH Windows</strong> KTH Windows users can find Git for Windows and Anaconda in the Software center.
+
+<strong>KTH Mac</strong> KTH Mac users normally have admin priviligues and can follow the instructions below.
+
+<strong>SU Windows</strong>
+
+<strong>SU Mac</strong>
+
+
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
 {% elsif site.carpentry == "dc" %}

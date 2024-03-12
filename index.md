@@ -449,7 +449,7 @@ If you're working with a KI, KTH or SU laptop, and you don't have administrative
 
 <strong>KTH Mac</strong> KTH Mac users normally have admin priviligues and can follow the instructions below.
 
-<strong>SU Windows</strong>
+<strong>SU Windows</strong>  SU Windows users won’t need administrative privileges for installing Anaconda or Git provided they install in their `users/NAME/AppData` folder and not in a directory further down
 
 <strong>SU Mac</strong>
 
